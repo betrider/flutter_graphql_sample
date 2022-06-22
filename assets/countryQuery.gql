@@ -1,0 +1,11 @@
+query getCountry($input: ID!) {
+  country(code: $input) {
+    code 
+    name
+    phone
+    capital
+    currency
+    emoji
+    emojiU
+  }
+}
